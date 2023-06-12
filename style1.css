@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100vw;
+    height: 64px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: black;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.logo{
+    gap: 1px;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.buttons{
+   margin: 0px 22px;
+}
+.button1,.button2{
+    padding: 16px 35px;
+    border-radius: 25px;
+}
+.button1:hover,.button2:hover{
+    border: 2px solid red;
+}
+.hero{
+    display: flex;
+    height: 500px;
+    gap: 7px;
+}
+.text div {
+    width: 50vw;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 16px;  
+    height: 55%;
+}
+.text h1{
+    width: 70%;
+    margin-top:90px;
+}
+.text p{
+    width: 70%;
+    margin: 4px auto;
+    font-size:medium;
+}
+.image1{
+    width: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.text button{
+    background-color: rgb(218, 47, 47);
+    color: white;
+    padding: 20px 40px;
+    font-size: medium;
+    margin-left: 99px;
+    margin-top: 21px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.text button:hover{
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    
+}
+/* Footer styles */
+.container{
+    display: flex;
+    height: 30vh;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+footer{
+    height: 40vh;
+     background-color: #f0e7e3;
+}
+h2{
+    padding-top: 60px;
+    color: rgb(0, 0, 0);
+}
+p{
+    width: 400px;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+}
+.icons{
+ 
+    font-size: 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.linkss{
+    width: 45%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    padding-top:60px;
+}
+.About ul,.Engage ul{
+    display: flex;
+    flex-direction: column;
+}
+.About ul a,.Engage ul a{
+    color: rgb(0, 0, 0);
+}
+.Engage b{
+padding-left: 7px;
+font-size: 22px;
+}
+.About b{
+    padding-left: 5px;
+    font-size: 22px;
+}
+.About ul a:hover,.Engage ul a:hover{
+    color:rgb(92, 45, 45)
+}
+
+  
+  
+ 
+  
+  
